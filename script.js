@@ -18,11 +18,12 @@ If the student wants to get to page 3, they open the book to page 1, flip 1 page
 
 /* 
 
-  1. Definir um objeto para armazenar a quantidade de meias que existem na pilha;
-  2. Inicializar uma variável para contar a quantidade de pares;
-  3. Iterar pelo objeto e dividir o valor de cada chave por 2;
-  4. Somar o valor do inteiro de cada divisão e armazenar o valor na variável de contagem;
-  5. Retornar a variável de contagem.
+1. Criar uma array com todos os elementos de 0 a n;
+2. Parear esses elementos de 2 em 2, criando uma array de arrays;
+3. Verificar qual o índice (viradas de página) para encontrar a página-alvo a partir do início e armazenar em uma variável;
+4. Reverter a array;
+5. Verificar qual o índice (viradas de página) para encontrar a página-alvo a partir do final e armazenar em uma variável;
+6. Retornar a menor das duas variáveis
 
 */
 
